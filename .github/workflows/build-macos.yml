@@ -23,6 +23,7 @@ jobs:
             -project MacCleanUninstaller.xcodeproj \
             -scheme MacCleanUninstaller \
             -configuration Debug \
+            -derivedDataPath build \
             -sdk macosx \
             -destination 'platform=macOS' \
             CODE_SIGNING_ALLOWED=NO \
